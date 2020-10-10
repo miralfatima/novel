@@ -1,0 +1,365 @@
+.html {
+	background: url(img.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.myimage {
+	margin-top: 60px;
+	padding-left: 10px;
+	background-repeat: no-repeat;
+	border-radius: 10% 10% 10% 10%;
+	box-shadow: #000;
+}
+#one {
+	background-color: brown;
+	color: rgb(233, 193, 193);
+	font-style: italic;
+	font-family: "Times New Roman", Times, serif;
+}
+.two {
+	background-color: white;
+}
+.three {
+	background-color: white;
+	margin: 10px 3px 5px 2px;
+}
+
+#footer-area {
+	padding: 10px 0 10px 0;
+	background: #262626;
+	color: #fff;
+	height: 520px;
+}
+.footer-social {
+	margin-top: 20px;
+}
+.single-footer h3 {
+	font-weight: 500;
+	margin-bottom: 25px;
+	color: #fafafa;
+	font-family: Merienda;
+}
+.link-area {
+	padding: 5px 5px 5px 0;
+	list-style: none;
+	display: inline;
+}
+.link-area li a {
+	text-transform: capitalize;
+	color: #ddd;
+	font-family: Merienda;
+}
+.link-area li a i {
+	margin-right: 10px;
+	color: #ddd;
+}
+icon li {
+	display: inline !important;
+}
+.link-area {
+	padding: 0;
+}
+.single-footer p {
+	font-family: Merienda;
+}
+.social-footer li {
+	display: inline;
+	background: #000;
+}
+.social-footer li a i {
+	color: #fff;
+	padding: 8px;
+}
+.widget li {
+	float: left;
+	width: 50%;
+}
+.widget li a img {
+	margin-bottom: -10px;
+	width: 100%;
+	height: 70px;
+}
+.copyright-area {
+	background: rgb(117, 99, 99);
+	padding: 8px 0;
+	margin-top: -11px;
+	border-radius: 5px;
+}
+.copyright-area p {
+	font-weight: 600;
+	color: #fafafa;
+}
+
+.img-1 {
+	height: 500px;
+	width: 100%;
+}
+
+/*signup*/
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+	background-color: #000;
+	color: #fff;
+	padding: 15px 1px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.9;
+	position: fixed;
+	bottom: 23px;
+	right: 28px;
+	width: 280px;
+	z-index: 1000;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	border: 3px solid #f1f1f1;
+	z-index: 1000;
+}
+
+/* Add styles to the form container */
+.form-container {
+	max-width: 300px;
+	padding: 10px;
+	background-color: rgb(71, 68, 68);
+}
+
+/* Full-width input fields */
+.form-container input[type="text"],
+.form-container input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type="text"]:focus,
+.form-container input[type="password"]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 14px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom: 10px;
+	opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+	background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+	opacity: 1;
+}
+.custom-search::before {
+	color: #f1f1f1 !important;
+	background-color: rgb(35, 172, 177) !important;
+}
+
+.custom-search:hover {
+	color: #f1f1f1 !important;
+	background-color: rgb(35, 172, 177) !important;
+}
+
+/*parallax*/
+.parallax p {
+	position: relative;
+	top: 100px;
+
+	font: italic bold 5em/1 Bodoni, serif;
+
+	text-align: center;
+
+	color: #000;
+	font-size: 34px;
+	animation: fadeIn 1s infinite alternate;
+}
+.parallax {
+	background: url("myimages/bg_5.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 200px;
+	position: relative;
+}
+.parallax-1 p {
+	position: relative;
+	top: 100px;
+
+	font: italic bold 5em/1 Bodoni, serif;
+
+	text-align: center;
+
+	color: rgb(255, 255, 255);
+	font-size: 34px;
+	animation: fadeIn 1s infinite alternate;
+}
+.parallax-1 {
+	background: url("myimages/3.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 200px;
+	position: relative;
+}
+
+/*books*/
+/*rating*/
+
+/*product carousel*/
+.container {
+	width: 100%;
+	margin-top: 7%;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 7%;
+}
+.container > #h2 {
+	background: #000000;
+	color: #fff;
+	width: 200px;
+	font-size: 24px;
+	padding: 7px;
+	height: 40px;
+}
+
+.container > #h5 {
+	background: #9c3232;
+	color: #fff;
+	width: 200px;
+	font-size: 24px;
+	padding: 7px;
+	height: 40px;
+	justify-content: center;
+	text-align: center;
+}
+
+.container > #h6 {
+	background: #0d3d1f;
+	color: #fff;
+	width: 200px;
+	font-size: 24px;
+	padding: 7px;
+	height: 40px;
+	justify-content: center;
+	text-align: center;
+}
+.container #h2::after {
+	content: "";
+
+	border-right: 50px solid transparent;
+	position: relative;
+	left: 55px;
+	top: 35.5px;
+}
+
+.row {
+	margin-top: 30px;
+}
+.product-top > img {
+	width: 100%;
+}
+.product-bottom .fa {
+	color: #28a745;
+	font-size: 10px;
+}
+.product-bottom .far {
+	color: #28a745;
+	font-size: 10px;
+}
+.product-bottom .fas {
+	color: #28a745;
+	font-size: 10px;
+}
+
+.product-bottom h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.product-bottom h5 {
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.overlay {
+	display: block;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	margin-left: 0;
+	width: 70px;
+}
+
+.product-top:hover .overlay {
+	opacity: 1;
+	margin-left: 5%;
+	transition: 0.5s;
+}
+.overlay .fa {
+	cursor: pointer;
+	background-color: #555;
+	color: #000;
+	height: 35px;
+	width: 35px;
+	font-size: 20px;
+	padding: 7px;
+	margin: 5%;
+	margin-bottom: 5%;
+}
+.overlay .fas {
+	cursor: pointer;
+	background-color: #555;
+	color: #fff;
+	height: 35px;
+	width: 35px;
+	font-size: 20px;
+	padding: 4px;
+	margin: 5%;
+	margin-bottom: 5%;
+}
+.overlay .far {
+	cursor: pointer;
+	background-color: #555;
+	color: #fff;
+	height: 35px;
+	width: 35px;
+	font-size: 20px;
+	padding: 4px;
+	margin: 5%;
+	margin-bottom: 5%;
+}
+
+.overlay .fab {
+	cursor: pointer;
+	background-color: #555;
+	color: #fff;
+	height: 35px;
+	width: 35px;
+	font-size: 20px;
+	padding: 4px;
+	margin: 5%;
+	margin-bottom: 5%;
+}
+
+.overlay .btn-secondary {
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+/*end of product carousel*/
